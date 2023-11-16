@@ -3,7 +3,7 @@
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from flask_sslify import SSLify
+#from flask_sslify import SSLify
 from bs4 import BeautifulSoup
 import urllib.request
 import requests
@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
-sslify = SSLify(app)
+#sslify = SSLify(app)
 
 crawled_count = 0
 
