@@ -10,7 +10,7 @@ chrome.action.onClicked.addListener(async (tab) => {
       const request = new XMLHttpRequest(); // 요청과 응답을 받아올 XHR 객체 생성
      
       //해당 웹페이지의 html을 호스트 서버로 보내기 -> ec2서버로 보내기
-      request.open('POST', 'http://172.31.32.155:443/naverblog', true);
+      request.open('POST', 'https://172.31.32.155:443/naverblog', true);
       request.setRequestHeader('Content-Type', 'application/json');
       request.send(data);
 
@@ -63,7 +63,7 @@ chrome.action.onClicked.addListener(async (tab) => {
       });
       
       const request = new XMLHttpRequest();
-      request.open('POST', 'http://172.31.32.155:443/naverblog/scroll', true);
+      request.open('POST', 'https://172.31.32.155:443/naverblog/scroll', true);
       request.setRequestHeader('Content-Type', 'application/json');
       request.send(data);
       request.addEventListener('load', function(){
