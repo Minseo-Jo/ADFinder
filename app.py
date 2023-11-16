@@ -15,7 +15,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app, supports_credentials=True) 
 
 crawled_count = 0
 
@@ -130,4 +130,4 @@ def scroll_handler():
 
 if __name__ == '__main__':
     model = joblib.load('rf_model.pkl')
-    app.run(host='0.0.0.0',port=443, debug=True)
+    app.run(host='0.0.0.0',port=443, ssl_context='adhoc', debug=True)
