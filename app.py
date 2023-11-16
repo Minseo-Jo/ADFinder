@@ -129,5 +129,5 @@ def scroll_handler():
 
 
 if __name__ == '__main__':
-    model = joblib.load('modeling/rf_model.pkl')
+    model = joblib.load('rf_model.pkl')
     app.run(host='0.0.0.0', debug=True)
