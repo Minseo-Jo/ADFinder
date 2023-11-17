@@ -129,4 +129,7 @@ def scroll_handler():
 
 if __name__ == '__main__':
     model = joblib.load('rf_model.pkl')
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0', port=443, debug=True, ssl_context='adhoc')
+
+
+#app.run(host='0.0.0.0', port=443, debug=True, ssl_context=('path/to/cert.pem', 'path/to/key.pem'), ssl_version='TLSv1.2')
