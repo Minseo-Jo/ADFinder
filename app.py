@@ -1,6 +1,3 @@
-# 가상환경 활성화
-# source venv3.9/bin/activate 
-
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 #from flask_sslify import SSLify
@@ -22,7 +19,7 @@ CORS(app, supports_credentials=True)
 crawled_count = 0
 
 def naver_crawler(html) :
-    # 전역변수 사용해서 크롤링한 개수 누적
+    # 전역변수로 크롤링한 개수 누적
     global crawled_count
     idx = 0
 
@@ -132,4 +129,4 @@ def scroll_handler():
 
 if __name__ == '__main__':
     model = joblib.load('rf_model.pkl')
-    app.run(host='0.0.0.0',port=443, ssl_context='adhoc', debug=True)
+    app.run(host='0.0.0.0',port=443, debug=True)
