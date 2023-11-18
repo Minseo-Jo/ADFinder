@@ -126,6 +126,10 @@ def scroll_handler():
     print(prediction)
     return prediction
 
+# HTTP health check
+@app.route("/", method=['GET'])
+def health_check():
+    return 200
 
 if __name__ == '__main__':
     model = joblib.load('rf_model.pkl')
