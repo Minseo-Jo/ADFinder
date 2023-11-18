@@ -129,7 +129,7 @@ def scroll_handler():
 # HTTP health check
 @app.route("/", methods=['GET'])
 def health_check():
-    return 200
+    return jsonify(status="OK"), 200
 
 if __name__ == '__main__':
     model = joblib.load('rf_model.pkl')
