@@ -133,7 +133,7 @@ def health_check():
 
 if __name__ == '__main__':
     model = joblib.load('rf_model.pkl')
-    app.run(host='0.0.0.0', port=8080, debug=True )#ssl_context=('cert.pem', 'key.pem'))
+    app.run(host='0.0.0.0', port=8080, debug=True )
 
 
 #app.run(host='0.0.0.0', port=80, debug=True, ssl_context=('path/to/cert.pem', 'path/to/key.pem'), ssl_version='TLSv1.2')
