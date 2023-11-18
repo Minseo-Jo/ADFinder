@@ -127,7 +127,7 @@ def scroll_handler():
     return prediction
 
 # HTTP health check
-@app.route("/", method=['GET'])
+@app.route("/", methods=['GET'])
 def health_check():
     return 200
 
