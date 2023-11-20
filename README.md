@@ -2,7 +2,6 @@
 > 네이버 광고성 리뷰 탐지 프로그램
 
 ## 👋 Introduction
-### Team : Coding Squirrel🐿️ 
 <table>
   <tbody>
     <tr>
