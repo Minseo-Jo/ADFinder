@@ -1,4 +1,4 @@
-# AD Finder : 네이버 광고성 리뷰 탐지 프로그램
+# 🔎 AD Finder : 네이버 광고성 리뷰 탐지 프로그램
 > 네이버 광고성 리뷰 탐지 프로그램
 
 ## 👋 Introduction
@@ -64,7 +64,7 @@
   
   
 
-### 프로젝트 진행 전체 구조
+### 🏭 프로젝트 진행 전체 구조
 
 <img width="500" alt="image" src="https://github.com/Minseo-Jo/softwarecapstone/assets/87311912/c3445e3b-891b-4a30-aa3c-382812cc792f">
 
