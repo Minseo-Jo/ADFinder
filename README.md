@@ -21,6 +21,9 @@
 
 ## 💻 Project Outline 
 
+<img src="https://github.com/Minseo-Jo/AD_Finder/assets/87311912/e53d6f6c-a80a-4503-bcdb-c5038e76b76b" alt="icon_sw" width="200"/>
+
+
 * **프로젝트 주제** : 네이버 광고성 리뷰 탐지 프로그램
 
 
