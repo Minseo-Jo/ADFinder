@@ -72,7 +72,7 @@
 
 
 
-## 🎥 데모 영상
+## 🎥 Demo
 
 
 <img width="500" alt="스크린샷 2023-11-20 오후 10 59 52" src="https://github.com/Minseo-Jo/softwarecapstone/assets/87311912/d722aa5a-aef4-4ac1-9bc5-e59c4f631b7b">
