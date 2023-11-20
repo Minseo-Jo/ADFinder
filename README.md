@@ -6,7 +6,8 @@
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="300px;" alt=""/><br /><sub><b>Minseo-Jo</b></sub></a><br /></td>
+      <td align="center"><img width="303" alt="스크린샷 2023-11-20 오후 11 12 18" src="https://github.com/Minseo-Jo/softwarecapstone/assets/87311912/c1ca5427-2c7b-47bd-b592-a04e63a25817">
+<img src="width="500px;" alt=""/><br /><sub><b>Minseo-Jo</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -50,19 +51,16 @@
 
 ✔️ Frontend
 
-<img src="https://img.shields.io/badge/표시할이름-색상?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
-
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML&logoColor=white"><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
 
 ✔️ Backend 
 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"><img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"> 
+
 ✔️ ML
 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"><img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 
-* Python
-* Javascript
-* HTML/CSS
-* Flask
-* AWS
   
   
 
