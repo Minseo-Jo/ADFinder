@@ -7,7 +7,7 @@
   <tbody>
     <tr>
       <td align="center"><img width="303" alt="스크린샷 2023-11-20 오후 11 12 18" src="https://github.com/Minseo-Jo/softwarecapstone/assets/87311912/c1ca5427-2c7b-47bd-b592-a04e63a25817">
-<img src="width="500px;" alt=""/><br /><sub><b>Minseo-Jo</b></sub></a><br /></td>
+<br /><sub style="font-size: 50px;"><b>Minseo-Jo</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
