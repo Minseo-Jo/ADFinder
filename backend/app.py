@@ -23,22 +23,22 @@ from sklearn.model_selection import GridSearchCV
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
-# 이미지 텍스트 추출
-def extract_text(img_url):
-    config = ('-l kor+eng')
+# # 이미지 텍스트 추출
+# def extract_text(img_url):
+#     config = ('-l kor+eng')
     
-    # 이미지 URL에서 이미지 다운로드
-    response = requests.get(img_url)
-    img = Image.open(BytesIO(response.content))
+#     # 이미지 URL에서 이미지 다운로드
+#     response = requests.get(img_url)
+#     img = Image.open(BytesIO(response.content))
 
-    # 이미지를 NumPy 배열로 변환하여 pytesseract로 텍스트 추출
-    img_array = np.array(img)
-    text = pytesseract.image_to_string(img_array, config=config)
+#     # 이미지를 NumPy 배열로 변환하여 pytesseract로 텍스트 추출
+#     img_array = np.array(img)
+#     text = pytesseract.image_to_string(img_array, config=config)
 
-    if '원고' in text or '제공받아' in text or '수익' in text or '수수료' in text:
-        return True
+#     if '원고' in text or '제공받아' in text or '수익' in text or '수수료' in text:
+#         return True
     
-    return False
+#     return False
 
 crawled_count = 0
 
@@ -100,18 +100,18 @@ def naver_crawler(html) :
                 else :
                     sponsered = 0
                 
-                # 협찬 이미지 문구 인식
-                post_content_imgs = post_html.find_all('a', {'class': '__se_sticker_link __se_link'})
-                if not post_content_imgs and sponsered == 0 :
-                    sponsered = 0
-                else:
-                    for post_content_img in post_content_imgs:
-                        image = post_content_img.find('img')
-                        image_url = image['src']
-                        extract_text(image_url)
+                # # 협찬 이미지 문구 인식
+                # post_content_imgs = post_html.find_all('a', {'class': '__se_sticker_link __se_link'})
+                # if not post_content_imgs and sponsered == 0 :
+                #     sponsered = 0
+                # else:
+                #     for post_content_img in post_content_imgs:
+                #         image = post_content_img.find('img')
+                #         image_url = image['src']
+                #         extract_text(image_url)
 
-                        if extract_text(image_url) == True :
-                            sponsered = 1
+                #         if extract_text(image_url) == True :
+                #             sponsered = 1
                 
                 # 포스터 길이
                 post_content_length = len(post_content_text)
