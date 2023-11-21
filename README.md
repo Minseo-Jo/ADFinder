@@ -12,7 +12,7 @@
 </table>
 
 > 안녕하세요 경희대학교 식품영양학과, 소프트웨어융합학과 다전공생 조민서입니다:)
->> 이번 프로젝트는 혼자서 수행한 1인 프로젝트로, 데이터 수집, 모델링, 백엔드 서버 구축, 그리고 애플리케이션 배포까지의 모든 단계를 진행했습니다.
+>> 1인 프로젝트로 데이터 수집, 모델링, 백엔드 서버 구축, 그리고 애플리케이션 배포까지의 모든 단계를 진행했습니다.
 >> 
 >> 전반적인 과정을 혼자서 해내는 것은 어려웠지만, SW 페스티벌 참가를 위해 꼭 해보고 싶었던 도전이었습니다.
 >>
@@ -45,21 +45,21 @@
 
 * **개발 목표** :
 
-광고성 블로그 리뷰를 분류 ML 모델의 예측 성능 f1-score 0.9 이상
+광고성 리뷰 분류 예측 성능 f1-score 0.9 이상의 모델을 구축한 후 클라이언트가 서버로 요청을 보내면 광고 표시를 자동으로 제공할 수 있는 크롬 플로그인 앱 개발
 
-클라이언트가 서버로 요청을 보내면 모델의 광고/비광고 결과 값에 따른 광고 표시를 제공하는 크롬 플러그인 앱 개발
+
 
 ### ⚒️ Skill set
 
-✔️ Frontend
+✔️ **Frontend** 
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML&logoColor=white"><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
 
-✔️ Backend 
+✔️ **Backend** 
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"><img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"> 
 
-✔️ ML
+✔️ **ML**
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"><img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 
@@ -68,15 +68,14 @@
 
 ### 🏭 프로젝트 진행 전체 구조
 
-<img width="500" alt="image" src="https://github.com/Minseo-Jo/softwarecapstone/assets/87311912/c3445e3b-891b-4a30-aa3c-382812cc792f">
-
+<img width="500" alt="스크린샷 2023-11-21 오전 11 03 59" src="https://github.com/Minseo-Jo/AD_Finder/assets/87311912/562e69e6-6b16-4140-b132-44a01e5b52af">
 
 
 ## 🎥 Demo
 
 * **🔗 영상링크** : https://www.youtube.com/watch?v=hd9y3LXFz-Y
 
-<img width="500" alt="스크린샷 2023-11-20 오후 10 59 52" src="https://github.com/Minseo-Jo/softwarecapstone/assets/87311912/d722aa5a-aef4-4ac1-9bc5-e59c4f631b7b">
+
 
 
 
