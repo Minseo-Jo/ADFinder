@@ -7,11 +7,11 @@ from urllib.parse import quote
 import pandas as pd
 import joblib
 
-import numpy as np
-import pytesseract
-from pytesseract import Output
-from PIL import Image
-from io import BytesIO 
+# import numpy as np
+# import pytesseract
+# from pytesseract import Output
+# from PIL import Image
+# from io import BytesIO 
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
