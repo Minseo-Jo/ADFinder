@@ -76,6 +76,10 @@
 * **🔗 영상링크** : https://www.youtube.com/watch?v=hd9y3LXFz-Y
 
 
+<img width="500" alt="스크린샷 2023-11-20 오후 10 59 28" src="https://github.com/Minseo-Jo/AD_Finder/assets/87311912/88ec31a7-6f88-4f5f-aac9-f947dd6e6fb3">
+
+
+
 
 
 
