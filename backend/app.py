@@ -5,40 +5,38 @@ import urllib.request
 import requests
 from urllib.parse import quote
 import pandas as pd
+import numpy as np
 import joblib
 
-# import numpy as np
-# import pytesseract
-# from pytesseract import Output
-# from PIL import Image
-# from io import BytesIO 
+import numpy as np
+import pytesseract
+from pytesseract import Output
+from PIL import Image
+from io import BytesIO 
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
-# # 이미지 텍스트 추출
-# def extract_text(img_url):
-#     config = ('-l kor+eng')
+이미지 텍스트 추출
+def extract_text(img_url):
+    config = ('-l kor+eng')
     
-#     # 이미지 URL에서 이미지 다운로드
-#     response = requests.get(img_url)
-#     img = Image.open(BytesIO(response.content))
+    response = requests.get(img_url)
+    img = Image.open(BytesIO(response.content))
 
-#     # 이미지를 NumPy 배열로 변환하여 pytesseract로 텍스트 추출
-#     img_array = np.array(img)
-#     text = pytesseract.image_to_string(img_array, config=config)
+    # pytesseract로 텍스트 추출
+    img_array = np.array(img)
+    text = pytesseract.image_to_string(img_array, config=config)
 
-#     if '원고' in text or '제공받아' in text or '수익' in text or '수수료' in text:
-#         return True
+    if '원고' in text or '제공받아' in text or '수익' in text or '수수료' in text:
+        return True
     
-#     return False
+    return False
 
 crawled_count = 0
 
@@ -52,14 +50,14 @@ def naver_crawler(html) :
                                       "Post" , "Post length", "Keyword(내돈내산)", 
                                       "Sponsered word"))
 
-    #html 파서 객체 생성
+    
     soup = BeautifulSoup(html, 'html.parser')
 
     # 포스트 링크, 포스트 제목 가져오기
     posts = soup.find_all('div', {'class':'detail_box'})
-    #print(posts)
+    
 
-    # 이전에 크롤링된 post 를 제외하고 크롤링할 수 있도록 인덱스 설정
+    
     for post in posts[crawled_count: ] :
         title = post.find('a', {'class': 'title_link'}).text
         # 제목에 내돈내산 키워드 여부 검사
@@ -149,7 +147,7 @@ def recieve_data() :
     print(prediction)
     return prediction
 
-# 스크롤 했을 때 응답하는 서버
+# 스크롤 했을 때 앤드포인트
 @app.route("/naverblog/scroll", methods=['POST'])
 def scroll_handler():
     data_from_js = request.get_json()
