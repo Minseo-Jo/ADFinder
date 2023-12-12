@@ -1,6 +1,6 @@
 # 🔎 AD Finder
 > 네이버 광고성 블로그 리뷰 탐지 프로그램
-
+<!--
 ## 👋 Introduction
 <table>
   <tbody>
@@ -18,7 +18,7 @@
 >>
 >> 프로젝트가 완성되어 SW 페스티벌에 참가할 수 있게 된 것이 정말 뿌듯합니다!
 
-
+-->
 ## 💻 Project Outline 
 
 <img src="https://github.com/Minseo-Jo/AD_Finder/assets/87311912/e53d6f6c-a80a-4503-bcdb-c5038e76b76b" alt="icon_sw" width="200"/>
