@@ -51,7 +51,7 @@ def recieve_data() :
 
 blog_post = 30
 
-# 스크롤 했을 때 응답하는 서버
+# 스크롤 시 엔드포인트
 @app.route("/naverblog/scroll", methods=['POST'])
 def scroll_handler():
     global blog_post
