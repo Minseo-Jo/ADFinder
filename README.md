@@ -66,9 +66,9 @@
   
   
 
-### 🏭 프로젝트 진행 전체 구조
+### 🏭 웹 애플리케이션 아키텍처
 
-<img width="500" alt="스크린샷 2023-11-21 오전 11 03 59" src="https://github.com/Minseo-Jo/AD_Finder/assets/87311912/562e69e6-6b16-4140-b132-44a01e5b52af">
+<img width="500" alt="그림2" src="https://github.com/Minseo-Jo/ADFinder/assets/87311912/635b3ea3-5b04-4d87-96ed-adb89b7b2ed0">
 
 
 ## 🎥 Demo
